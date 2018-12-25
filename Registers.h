@@ -74,6 +74,7 @@
 #define TCCR1A *((volatile u8*) 0x4F)
 #define TCCR1B *((volatile u8*) 0x4E)
 #define TCNT1H *((volatile u8*) 0x4D)
+#define TCNT1L *((volatile u8*) 0x4C)
 #define ICR1L *((volatile u16*) 0x46)
 #define TIMSK *((volatile u8*) 0x59)
 #define OCR1A *((volatile u16*) 0x4A)
